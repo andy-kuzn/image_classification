@@ -3,6 +3,7 @@ import time
 import streamlit as st
 from PIL import Image
 import numpy as np
+import tensorflow as tf
 from tensorflow.keras.applications import EfficientNetB7
 from tensorflow.keras.preprocessing import image
 from tensorflow.keras.applications.efficientnet import \
